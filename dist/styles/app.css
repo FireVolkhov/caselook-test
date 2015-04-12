@@ -712,14 +712,15 @@ th {
   height: 36px;
   margin: 48px 0 0 0;
   padding: 0 0 0 34px;
+  cursor: pointer;
 }
 
-/* line 44, ../../src/styles/_header.sass */
+/* line 45, ../../src/styles/_header.sass */
 .b-header-menu {
   margin: 34px 0 0 0;
 }
 
-/* line 47, ../../src/styles/_header.sass */
+/* line 48, ../../src/styles/_header.sass */
 .b-header-menu-item {
   position: relative;
   display: inline-block;
@@ -729,7 +730,7 @@ th {
   text-transform: uppercase;
   cursor: pointer;
 }
-/* line 56, ../../src/styles/_header.sass */
+/* line 57, ../../src/styles/_header.sass */
 .b-header-menu-item .b-icon {
   position: absolute;
   top: 0;
@@ -737,16 +738,16 @@ th {
   height: 100%;
   width: 32px;
 }
-/* line 64, ../../src/styles/_header.sass */
+/* line 65, ../../src/styles/_header.sass */
 .b-header-menu-item.b-header-menu-item--schedule .b-header-menu-item-text {
   padding-right: 22px;
 }
-/* line 68, ../../src/styles/_header.sass */
+/* line 69, ../../src/styles/_header.sass */
 .b-header-menu-item.b-header-menu-item--play_video .b-header-menu-item-text {
   padding-right: 26px;
 }
 
-/* line 71, ../../src/styles/_header.sass */
+/* line 72, ../../src/styles/_header.sass */
 .b-header-menu-item-text {
   padding: 0 25px 0 40px;
   letter-spacing: -0.03px;

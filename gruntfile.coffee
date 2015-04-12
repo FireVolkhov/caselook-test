@@ -54,7 +54,7 @@ module.exports = (grunt) ->
 				expand: true,
 				cwd: '<%= module.srcPath %>',
 				src: ['**/*.jade', '!**/_*.jade'],
-				dest: '<%= module.distPath %>',
+				dest: '<%= module.basePath %>',
 				ext: '.html'
 
 #		coffeelint:
