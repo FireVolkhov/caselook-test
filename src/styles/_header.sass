@@ -1,0 +1,73 @@
+.b-header-container
+	background: $LandingLook
+	height: 512px
+
+.b-header
+	color: #fff
+
+.b-header-logo
+	position: absolute
+	top: 65px
+	right: 127px
+	width: 167px
+	height: 35px
+	background: url(./../images/logo.png)
+
+.b-header-title-container
+	padding: 122px 0 0 128px
+
+.b-header-pre-title
+	font-weight: 600
+	letter-spacing: -0.12px
+	font-size: 16px
+	line-height: 32px
+	text-transform: uppercase
+
+.b-header-title
+	position: relative
+	top: -1px
+	font-weight: 300
+	letter-spacing: -0.29px
+	font-size: 40px
+	line-height: 48px
+
+.b-header-start-button
+	color: $LandingLook
+	background: #fff
+	border-radius: 2px
+	width: 150px
+	line-height: 36px
+	height: 36px
+	margin: 48px 0 0 0
+	padding: 0 0 0 34px
+
+.b-header-menu
+	margin: 34px 0 0 0
+
+.b-header-menu-item
+	position: relative
+	display: inline-block
+	height: 32px
+	font-size: 12px
+	line-height: 32px
+	text-transform: uppercase
+	cursor: pointer
+
+	.b-icon
+		position: absolute
+		top: 0
+		left: 0
+		height: 100%
+		width: 32px
+
+	&.b-header-menu-item--schedule
+		.b-header-menu-item-text
+			padding-right: 22px
+
+	&.b-header-menu-item--play_video
+		.b-header-menu-item-text
+			padding-right: 26px
+
+.b-header-menu-item-text
+	padding: 0 25px 0 40px
+	letter-spacing: -0.03px

@@ -1,0 +1,24 @@
+mixin menuItem(icon, text, itemClass)
+	.b-header-menu-item(class = "#{itemClass || ''}")
+		.b-icon(class = "b-icon-#{icon}")
+		.b-header-menu-item-text
+			span #{text}
+
+.b-header-container
+	.b-header.b-content
+		.b-header-logo
+		.b-header-title-container
+			.b-header-pre-title
+				span Начните работать уже сегодня
+			.b-header-title
+				span Поиск и анализ 50 миллионов судебных актов
+				br
+				span Арбитражных судов и Судов общей юрисдикции
+				br
+				span для формирования правовой позиции
+			.b-header-start-button
+				span Начать работать
+			.b-header-menu
+				+menuItem('play', 'Посмотрите видео', 'b-header-menu-item--play_video')
+				+menuItem('small_calendar', 'Расписание вебинаров', 'b-header-menu-item--schedule')
+				+menuItem('question', 'Руководство пользователя')

@@ -1,0 +1,20 @@
+mixin question(icon, text, itemClass)
+	.b-content-questions-item(class = "#{itemClass || ''}")
+		.b-icon(class = "b-icon-#{icon}")
+		.b-content-questions-item-text
+			span !{text}
+
+.b-content-container
+	.b-content
+		.b-content-questions
+			+question('calendar', 'Как облегчить работу<br> по подбору судебной практики<br> перед важным заседанием?')
+			+question('find', 'Как в считанные секунды найти<br> необходимые судебные акты,<br> избежав ручной работы?')
+			+question('eye', 'Как сделать процесс анализа<br> десятков миллионов документов<br> простым и интуитивно понятным?')
+			+question('settings', 'Как найти документ,<br> сочетая интересующие параметры<br> в рамках одного поискового запроса?')
+			+question('mouse', 'Что упростит процесс<br> подготовки и обоснования<br> правовой позиции?')
+			+question('pencil', 'Какие инструменты можно<br> использовать для работы<br> с документом?')
+			+question('headphones', 'Как конкретный судья трактует<br> принятые нормы права?', 'b-content-questions-item--last_line')
+			+question('briefcase', 'Как сохранить или скачать найденные<br> судебные акты, чтобы не потерять<br> важную информацию?', 'b-content-questions-item--last_line')
+			+question('directory', 'Как поделиться с коллегами<br> готовой подборкой судебных актов?', 'b-content-questions-item--last_line')
+
+		.b-content-separate
