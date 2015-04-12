@@ -1,0 +1,5 @@
+$icons: calendar find eye settings mouse pencil headphones briefcase directory play small_calendar question
+
+@each $icon in $icons
+	.b-icon-#{$icon}
+		background: url('./../images/icons/#{$icon}.png') no-repeat unquote("calc(50% + 0px) calc(50% + 0px)")
